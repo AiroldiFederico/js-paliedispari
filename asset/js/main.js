@@ -11,3 +11,37 @@ Sommiamo i due numeri
 Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
 Dichiariamo chi ha vinto.
 */
+
+
+/* STEP:
+
+1 - Utente inserisce la parola
+
+2 - Prendo il valore dell'input registrandolo in una variabile
+
+3 - Avvio la sequenza tramite un bottone, quindi registro anche quel input
+
+4 - Creo la funzione che al click del bottone raccoglie l'input della parola
+
+*/
+
+
+//input parola inserita dall'utente
+let InputPalindrome = document.getElementById('InputPali');
+
+//Tasto per verificare
+let Button1 = document.getElementById('btn1').value;
+
+//Al click raccolgo i dati
+document.addEventListener("click", RegDataInput);
+
+
+function RegDataInput() {
+    console.log(InputPalindrome.value);
+};
+
+
+
+function verPali(word) {
+
+}
