@@ -92,4 +92,31 @@ STEP:
 
 1. Sistemo la struttura html
 
+2. Raccolgo gli input
+
+3. Selezione click button
+
+4. Evento al click
+
 */
+
+
+//input even odd
+let EvenOrOdd = document.getElementById('InputEO');
+
+//input numero
+let InputNumero = document.getElementById('Inumero');
+
+//Tasto per verificare
+let Button2 = document.getElementById('btn2');
+
+
+//evento al click
+Button2.addEventListener("click", function() {
+
+    EvenOrOdd.value;
+    InputNumero.value;
+
+    console.log(EvenOrOdd.value , InputNumero.value);
+
+});
