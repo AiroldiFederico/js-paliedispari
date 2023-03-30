@@ -98,6 +98,10 @@ STEP:
 
 4. Evento al click
 
+5. Genero un numero casuale per la cpu e la stampo nel placeholder
+
+6. Faccio la somma del numero CPU e Utente
+
 */
 
 
@@ -114,9 +118,20 @@ let Button2 = document.getElementById('btn2');
 //evento al click
 Button2.addEventListener("click", function() {
 
+    //genero un numero casuale
+    let numeroCasuale = Math.floor(Math.random() * 5) + 1;
+
+    //punto al elemento html 
+    let numeroCPU = document.getElementById('disabledTextInput');
+
+    //scrivo il numero come placeholder
+    numeroCPU.setAttribute("placeholder", numeroCasuale);
+
     EvenOrOdd.value;
     InputNumero.value;
 
+    if ( )
+    
     console.log(EvenOrOdd.value , InputNumero.value);
 
 });
