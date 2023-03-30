@@ -130,8 +130,18 @@ Button2.addEventListener("click", function() {
     EvenOrOdd.value;
     InputNumero.value;
 
-    if ( )
+    let somma = parseInt(numeroCasuale) + parseInt(InputNumero.value);
+
+    if ( EvenOrOdd.value == 1 && somma % 2 == 0 || EvenOrOdd.value == 2 && somma % 2 !== 0 ) {
+        //risultatato positivo
+        document.getElementById("OutputEvenOdd").innerHTML = `Complimenti, hai vinto! il risultato è ${somma}`;
+    } else {
+        //risultatato negativo
+        document.getElementById("OutputEvenOdd").innerHTML = `Hei perso! il risultato è ${somma}`;
+    }
+
+   
     
-    console.log(EvenOrOdd.value , InputNumero.value);
+    console.log(somma);
 
 });
