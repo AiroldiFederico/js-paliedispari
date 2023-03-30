@@ -41,6 +41,8 @@
   
         <main class="col-12 d-flex justify-content-center flex-column gap-4 align-items-center m-auto h-100 w-100">
 
+            <h1>PALI O DISPARI</h1>
+            
             <section class="p-4">
 
                 <!-- palindorme -->
@@ -71,7 +73,7 @@
                     <div class="mb-3">
                         <label for="Input" class="form-label">Seleziona pari o dispari e scegli un numero</label>
 
-                        <div class="input-group mb-3">
+                        <div class="input-group mb-3 w-75">
                             <label class="input-group-text" for="">Options</label>
                             <select class="form-select" id="InputEO">
                                 <option selected>Scegli se pari o dispari</option>
@@ -79,7 +81,7 @@
                                 <option value="2">Dispari</option>
                             </select>
                         </div>
-                        <div class="input-group mb-3">
+                        <div class="input-group mb-3 w-75">
                             <label class="input-group-text" for="">Options</label>
                             <select class="form-select" id="Inumero">
                                 <option selected>Scegli il numero</option>
@@ -94,12 +96,12 @@
 
                         <div class="d-flex mt-3 gap-3">
                             <button type="submit" class="btn h-25 mt-4" id="btn2">Sfida CPU</button> 
-                            <div class="mb-1 ">
-                                <label for="disabledTextInput" class="form-label">N. sfidnate</label>
-                                <input type="text" id="disabledTextInput" class="form-control  ms-3" placeholder="">
+                            <div class="mt-4">
+                                <label for="disabledTextInput" class="form-label d-inline">N. sfidnate</label>
+                                <input type="text" id="disabledTextInput" class="form-control d-inline-block" placeholder="">
                             </div>
-                            <p id="OutputEvenOdd"></p>
                         </div>
+                        <p id="OutputEvenOdd" class="mt-2"></p>
                     </div>
 
                 </div>

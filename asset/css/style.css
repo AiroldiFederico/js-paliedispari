@@ -58,3 +58,13 @@ button:active {
 	position:relative;
 	top:1px;
 }
+
+#disabledTextInput {
+    width: 12%;
+    margin: 0;
+}
+
+h1 {
+    color: white;
+    font-size: 6rem;
+}
