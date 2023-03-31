@@ -137,7 +137,7 @@ Button2.addEventListener("click", function() {
         document.getElementById("OutputEvenOdd").innerHTML = `Complimenti, hai vinto! il risultato è ${somma}`;
     } else {
         //risultatato negativo
-        document.getElementById("OutputEvenOdd").innerHTML = `Hei perso! il risultato è ${somma}`;
+        document.getElementById("OutputEvenOdd").innerHTML = `Hai perso! il risultato è ${somma}`;
     }
 
    
